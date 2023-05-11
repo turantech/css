@@ -9,6 +9,15 @@ p {
     color: darkred;
 }
 
+#read-more-link-id {
+    color: red;
+    background-color: aquamarine;
+}
+.read-more-link {
+    color: royalblue;
+    background-color: yellow;
+}
+
 .coding-article-heading {
     color: darkolivegreen;
 }
