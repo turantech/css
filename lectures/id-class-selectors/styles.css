@@ -1,4 +1,4 @@
-/* h1 {
+h1 {
     color: purple;
 }
 h2 {
@@ -23,70 +23,4 @@ p {
 
 #tech-section {
     background-color: cadetblue;
-} */
-
-.btn-small-aqua {
-    height: 50px;
-    color: black;
-    background-color: aqua;
-    border: none;
-    cursor: pointer;
-}
-.btn-small-orange {
-    height: 50px;
-    color: white;
-    background-color: orange;
-    border: none;
-    cursor: pointer;
-}
-.btn-small-blue {
-    height: 50px;
-    color: white;
-    background-color: blue;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-medium-aqua {
-    height: 60px;
-    color: black;
-    background-color: aqua;
-    border: none;
-    cursor: pointer;
-}
-.btn-medium-orange {
-    height: 60px;
-    color: white;
-    background-color: orange;
-    border: none;
-    cursor: pointer;
-}
-.btn-medium-blue {
-    height: 60px;
-    color: white;
-    background-color: blue;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-large-aqua {
-    height: 70px;
-    color: black;
-    background-color: aqua;
-    border: none;
-    cursor: pointer;
-}
-.btn-large-orange {
-    height: 70px;
-    color: white;
-    background-color: orange;
-    border: none;
-    cursor: pointer;
-}
-.btn-large-blue {
-    height: 70px;
-    color: white;
-    background-color: blue;
-    border: none;
-    cursor: pointer;
 }
