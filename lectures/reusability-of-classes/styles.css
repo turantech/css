@@ -1,0 +1,110 @@
+/* Original Button */
+/* .btn-small-choco {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    background-color: chocolate;
+    color: white;
+}
+
+.btn-small-gray {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    background-color: gray;
+    color: white;
+}
+
+.btn-small-blue {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    background-color: royalblue;
+    color: white;
+}
+
+.btn-medium-choco {
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background-color: chocolate;
+    color: white;
+}
+
+.btn-medium-gray {
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+.btn-medium-blue {
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+}
+
+.btn-large-choco {
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    background-color: chocolate;
+    color: white;
+}
+
+.btn-large-gray {
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    background-color: gray;
+    color: white;
+}
+
+.btn-large-blue {
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    background-color: royalblue;
+    color: white;
+} */
+
+/* Refactored Button */
+.btn {
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sm {
+    height: 30px;
+}
+.btn-md {
+    height: 50px;
+}
+.btn-lg {
+    height: 70px;
+}
+.btn-choco {
+    background-color: chocolate;
+    color: white;
+}
+
+.btn-gray {
+    background-color: gray;
+    color: white;
+}
+
+.btn-blue {
+    background-color: royalblue;
+    color: white;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+.btn-purple {
+    background-color: blueviolet;
+    color: white;
+}
