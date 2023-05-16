@@ -4,12 +4,12 @@ div {
     margin-bottom: 5px;
 }
 
-.rgba {
+.transparency {
     position: relative;
     width: max-content;
     height: max-content;
 }
-.rgba img {
+.transparency img {
     height: 300px;
 }
 
