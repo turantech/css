@@ -31,10 +31,10 @@ h2 {
 
 p {
     font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
     color: rgb(0, 0, 255);
-    text-align: justify;
+    text-align: center;
     line-height: 2;
 }
 
