@@ -1,0 +1,29 @@
+Question 1:
+The total width of the box (including padding) is the sum of the width and twice the padding (because padding is applied to both sides of the box). In this case, 300px (width) + 2*20px (padding) = 340px.
+
+Question 2:
+The total width of the box (including padding and border) is the sum of the width, twice the padding, and twice the border. In this case, 200px (width) + 230px (padding) + 210px (border) = 280px.
+
+Question 3:
+The total space taken by the box (including padding, border, and margin) is the sum of the width, twice the padding, twice the border, and twice the margin. In this case, 400px (width) + 220px (padding) + 215px (border) + 2*25px (margin) = 520px.
+
+Question 4:
+The total width of the inner box (including padding) is the sum of the width and twice the padding. Since the width is defined as 100%, it will take up all the width of the parent div, which is 350px. So in this case, 350px (width) + 2*15px (padding) = 380px.
+
+Question 5:
+The box-sizing: border-box property means that padding and border are included in the element's total width and height, not added to it. Therefore, the width of the content box is still 500px.
+
+Question 6:
+Due to a concept in CSS called margin collapsing, the actual margin between these two boxes would be the larger of the two, not the sum. So the space is 30px.
+
+Question 7:
+The total width of the inner box (including padding) is the sum of the width and twice the padding. Here, the width is 100% of its parent, which is 300px. So, 300px (width) + 2*30px (padding) = 360px.
+
+Question 8:
+Because of the box-sizing: border-box property, padding and border are included in the element's total width, not added to it. Therefore, the width of the content box is still 400px.
+
+Question 9:
+The total space taken by the box (including padding, border, and margin) is the sum of the width, twice the padding, twice the border, and twice the margin. In this case, it's 200px (width) + 2*20px (padding) + 2*5px (border) + 2*15px (margin) = 280px.
+
+Question 10:
+Due to margin collapsing, the actual margin between these two boxes would be the larger of the two, not the sum. So the space is 35px.
