@@ -38,7 +38,7 @@ nav {
     margin-right: 30px;
 }
 
-.bottom-left-box {
+.main-content-left {
     height: 624px;
     width: 800px;
     background-color: #808080;
@@ -47,7 +47,7 @@ nav {
     padding: 30px;
     vertical-align: top;
 }
-.bottom-right-box {
+.main-content-right {
     height: 624px;
     width: 550px;
     padding: 30px;
@@ -56,7 +56,7 @@ nav {
     vertical-align: top;
 }
 
-.bottom-left-inner-box-1 {
+.main-content-left-inner-box-1 {
     width: 355px;
     height: 564px;
     background-color: #d9d9d9;
@@ -64,14 +64,14 @@ nav {
     margin-right: 30px;
 }
 
-.bottom-left-inner-box-2 {
+.main-content-left-inner-box-2 {
     width: 355px;
     height: 564px;
     background-color: #d9d9d9;
     display: inline-block;
 }
 
-.bottom-right-inner-box-1 {
+.main-content-right-inner-box-1 {
     width: 189px;
     height: 564px;
     background-color: #d9d9d9;
@@ -79,7 +79,7 @@ nav {
     margin-right: 30px;
 }
 
-.bottom-right-inner-box-2 {
+.main-content-right-inner-box-2 {
     width: 271px;
     height: 564px;
     background-color: #d9d9d9;
