@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
 
     background-color: aliceblue;
     margin: 0 auto;
@@ -25,7 +25,7 @@ nav {
 
 .top-content-box {
     height: 200px;
-    width: 440px;
+    width: calc((100% - 60px) / 3);
     background-color: #808080;
     display: inline-block;
 }
@@ -45,6 +45,7 @@ nav {
 .main-content-left {
     height: 624px;
     width: 800px;
+    width: calc(((830 * 100) / 1380) * 1% - 30px);
     background-color: #808080;
     display: inline-block;
     margin-right: 30px;
@@ -54,6 +55,7 @@ nav {
 .main-content-right {
     height: 624px;
     width: 550px;
+    width: calc(((550 * 100) / 1380) * 1%);
     padding: 30px;
     background-color: #808080;
     display: inline-block;
@@ -62,6 +64,7 @@ nav {
 
 .main-content-left-inner-box-1 {
     width: 355px;
+    width: calc((100% - 30px) / 2);
     height: 564px;
     background-color: #d9d9d9;
     display: inline-block;
@@ -70,6 +73,7 @@ nav {
 
 .main-content-left-inner-box-2 {
     width: 355px;
+    width: calc((100% - 30px) / 2);
     height: 564px;
     background-color: #d9d9d9;
     display: inline-block;
@@ -77,6 +81,7 @@ nav {
 
 .main-content-right-inner-box-1 {
     width: 189px;
+    width: calc(((219 * 100) / 490) * 1% - 30px);
     height: 564px;
     background-color: #d9d9d9;
     display: inline-block;
@@ -85,13 +90,14 @@ nav {
 
 .main-content-right-inner-box-2 {
     width: 271px;
+    width: calc(((271 * 100) / 490) * 1%);
     height: 564px;
     background-color: #d9d9d9;
     display: inline-block;
 }
 .bottom-content-box-1 {
     display: inline-block;
-    width: 910px;
+    width: calc(100% - ((100% - 30px) / 3) - 30px);
     height: 214px;
     background-color: #808080;
     margin-right: 30px;
@@ -100,6 +106,7 @@ nav {
 .bottom-content-box-2 {
     display: inline-block;
     width: 440px;
+    width: calc((100% - 30px) / 3);
     height: 214px;
     background-color: #808080;
 }
