@@ -1,3 +1,5 @@
+/* 
+
 * {
     margin: 0;
     padding: 0;
@@ -100,6 +102,121 @@ nav {
 .bottom-content-box-2 {
     display: inline-block;
     width: 440px;
+    height: 214px;
+    background-color: #808080;
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 0;
+}
+
+nav {
+    height: 80px;
+    background-color: #808080;
+    margin-bottom: 30px;
+}
+
+.top-content {
+    margin-bottom: 30px;
+}
+
+.top-content-box {
+    height: 200px;
+    width: calc((100% - 60px) / 3);
+    background-color: #808080;
+    display: inline-block;
+}
+
+.top-content-box-1 {
+    margin-right: 30px;
+}
+
+.main-content {
+    margin-bottom: 30px;
+}
+
+.top-content-box-2 {
+    margin-right: 30px;
+}
+
+.main-content-left {
+    height: 624px;
+    width: 800px;
+    width: calc(((830 * 100) / 1380) * 1% - 30px);
+    background-color: #808080;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 30px;
+    vertical-align: top;
+}
+.main-content-right {
+    height: 624px;
+    width: 550px;
+    width: calc(((550 * 100) / 1380) * 1%);
+    padding: 30px;
+    background-color: #808080;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-content-left-inner-box-1 {
+    width: 355px;
+    width: calc((100% - 30px) / 2);
+    height: 564px;
+    background-color: #d9d9d9;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-content-left-inner-box-2 {
+    width: 355px;
+    width: calc((100% - 30px) / 2);
+    height: 564px;
+    background-color: #d9d9d9;
+    display: inline-block;
+}
+
+.main-content-right-inner-box-1 {
+    width: 189px;
+    width: calc(((219 * 100) / 490) * 1% - 30px);
+    height: 564px;
+    background-color: #d9d9d9;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-content-right-inner-box-2 {
+    width: 271px;
+    width: calc(((271 * 100) / 490) * 1%);
+    height: 564px;
+    background-color: #d9d9d9;
+    display: inline-block;
+}
+.bottom-content-box-1 {
+    display: inline-block;
+    width: calc(100% - ((100% - 30px) / 3) - 30px);
+    height: 214px;
+    background-color: #808080;
+    margin-right: 30px;
+}
+
+.bottom-content-box-2 {
+    display: inline-block;
+    width: 440px;
+    width: calc((100% - 30px) / 3);
     height: 214px;
     background-color: #808080;
 }
