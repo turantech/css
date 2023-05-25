@@ -118,7 +118,7 @@ main {
     vertical-align: top;
     margin-right: 30px;
     margin-bottom: 30px;
-    width: calc(100% - ((100% - 90px) / 4));
+    width: calc(100% - ((100% - 90px) / 4) - 30px);
 }
 
 aside {
@@ -169,13 +169,13 @@ aside {
 }
 
 .bottom-content-box-1 {
-    width: calc(((674 * 100) / 963) * 1% - 30px);
+    width: calc(((655 * 100) / 967.5) * 1% - 30px);
     height: 294px;
     display: inline-block;
     margin-right: 30px;
 }
 .bottom-content-box-2 {
-    width: calc(((289 * 100) / 963) * 1%);
+    width: calc(((312.5 * 100) / 967.5) * 1%);
 
     height: 294px;
     display: inline-block;
