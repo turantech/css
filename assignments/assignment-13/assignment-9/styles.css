@@ -1,0 +1,130 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0;
+}
+
+nav {
+    height: 80px;
+    background-color: #808080;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.main-right {
+    display: inline-block;
+    height: 460px;
+    width: 907px;
+    background-color: #808080;
+    margin-right: 20px;
+}
+
+.main-left {
+    display: inline-block;
+    height: 460px;
+    width: 473px;
+    background-color: #808080;
+}
+
+.bottom-box-1 {
+    background-color: #808080;
+    width: 670px;
+    height: 404px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.bottom-box-2 {
+    background-color: #808080;
+    width: 710px;
+    height: 404px;
+    display: inline-block;
+}
+
+.bottom-inner-box {
+    height: 364px;
+    width: 305px;
+    background-color: #d9d9d9;
+    display: inline-block;
+}
+
+.bottom-inner-box-1 {
+    margin-right: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0;
+}
+
+nav {
+    height: 80px;
+    background-color: #808080;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.main-right {
+    display: inline-block;
+    height: 460px;
+    width: calc((((907 + 20) * 100) / 1400) * 1% - 20px);
+    background-color: #808080;
+    margin-right: 20px;
+}
+
+.main-left {
+    display: inline-block;
+    height: 460px;
+    width: calc(((473 * 100) / 1400) * 1%);
+    background-color: #808080;
+}
+
+.bottom-box-1 {
+    background-color: #808080;
+    width: calc((((670 + 20) * 100) / 1400) * 1% - 20px);
+    height: 404px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.bottom-box-2 {
+    background-color: #808080;
+    width: calc(((710 * 100) / 1400) * 1%);
+    height: 404px;
+    display: inline-block;
+}
+
+.bottom-inner-box {
+    height: 364px;
+    width: calc((100% - 20px) / 2);
+    background-color: #d9d9d9;
+    display: inline-block;
+}
+
+.bottom-inner-box-1 {
+    margin-right: 20px;
+}
