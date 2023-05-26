@@ -1,0 +1,39 @@
+body {
+    margin: 16px;
+}
+
+header {
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+h1,
+h2 {
+    margin-bottom: 24px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 12px;
+}
+
+section {
+    margin-bottom: 48px;
+    padding: 24px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 32px;
+}
+
+footer {
+    padding: 16px;
+    margin-top: 64px;
+}
