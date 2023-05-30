@@ -44,6 +44,13 @@ main {
 
 .article {
     margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.article p {
+    border-top: 1px solid #f00;
+    line-height: 150%;
 }
 
 input {
@@ -55,11 +62,6 @@ input {
 }
 
 .name {
-    display: inline-block;
-    margin-left: -4px;
-}
-
-.class {
     display: inline-block;
     margin-left: -4px;
 }
